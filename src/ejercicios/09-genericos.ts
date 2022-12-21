@@ -2,7 +2,7 @@
     ===== Código de TypeScript =====
 */
 
-const queTipoSoy = <T>(arg: T) => {
+const queTipoSoy = <T>(arg: T) : T => {
     return arg;
 }
 
